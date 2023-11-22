@@ -15,26 +15,10 @@
         <p>Fórmula: IMC = Peso / Altura x Altura</p>
         <div><input type="number" name="peso" id="peso" placeholder="Peso"></div>
         <div><input type="number" name="altura" id="altura" placeholder="Altura"></div>
-        <div>  <input type="button" value="Calcular" onclick="calcular()"></div>      
+        <div> <input type="button" value="Calcular" onclick="calcular()"></div>
         <div id="res">Resultado:</div>
     </form>
-    <script>
-
-        function calcular() {
-            var peso = window.document.getElementById('peso')
-            var altura = window.document.getElementById('altura')
-            var res = window.document.getElementById('res')
-            var n1 = Number(peso.value)
-            var n2 = Number(altura.value)
-            var s1 = n1 / (n2 ** 2)
-            res.innerHTML = `Resultado: Seu IMC é ${s1.toFixed(1)}`
-
-           
-        }
-    </script>
-
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
