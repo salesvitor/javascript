@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(144, 144, 243);
+    color: black;
+    font: normal 15pt Arial;
+    
+}
+
+input {
+    height: 25px;
+    margin-top: 10px;
+   
+}
+
+form {
+
+background-color: white;
+height: 400px;
+
+width: 400px;
+align-items: center;
+justify-content: center;
+
+
+}
+
+div#res {
+
+margin-top: 20px;
+
+}
