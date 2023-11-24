@@ -7,3 +7,4 @@ function calcular() {
     var s1 = n1 / (n2 ** 2)
     res.innerHTML = `Resultado: Seu IMC é ${s1.toFixed(1)}`
  }
+
