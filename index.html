@@ -9,16 +9,23 @@
 </head>
 
 <body>
+    <section>
+        <form action="">
+            <h1 id="ola">Calcule aqui seu IMC</h1>
+            <p>Fórmula: IMC = Peso / Altura x Altura</p>
+            <div><input type="number" name="peso" id="peso" placeholder="Peso">KG</div>
+            <div><input type="number" name="altura" id="altura" placeholder="Altura">M</div>
+            <div><input type="button" value="Calcular" onclick="calcular()"></div>
+            <div id="res">Resultado:</div>
+        </form>
+    </section>
 
-    <form action="">
-        <h1 id="ola">Calcule aqui seu IMC</h1>
-        <p>Fórmula: IMC = Peso / Altura x Altura</p>
-        <div><input type="number" name="peso" id="peso" placeholder="Peso">KG</div>
-        <div><input type="number" name="altura" id="altura" placeholder="Altura">M</div>
-        <div><input type="button" value="Calcular" onclick="calcular()"></div>
-        <div id="res">Resultado:</div>
-    </form>
+
+
     <script src="script.js"></script>
+
+
+
 </body>
 
 </html>
